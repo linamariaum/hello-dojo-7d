@@ -3,6 +3,6 @@
   <title>Prueba de PHP HEROKU</title>
  </head>
  <body>
- <?php echo '<p>Hola Lina</p>'; ?>
+ <?php echo '<p>Hola Lina </p>'; ?>
  </body>
 </html>
