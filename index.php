@@ -4,8 +4,8 @@
  </head>
  <body>
  <?php
-echo "Variable $saludo: $HTTP_GET_VARS["saludo"] <br>n";
+echo "<td><a href='index.php?saludo=".$saludo["saludo"]."'>detalles</a></td>";
 echo "Variable $saludo: $saludo <br>n";
-echo '<p> Hola Lina </p>'; ?>
+echo '<p> Hola Lina, $saludo </p>'; ?>
  </body>
 </html>
