@@ -3,7 +3,7 @@
   <title> Prueba de PHP HEROKU </title>
  </head>
  <body>
-Hola <?php isset($_GET["nombre"]) ? print $_GET["nombre"] : "";<br>
+Hola <?php isset($_GET["nombre"]) ? print $_GET["nombre"] : "";
 echo "Variable $nombre: $nombre <br>n";
 echo '<p> Hola Lina, $nombre </p>'; ?>
  </body>
