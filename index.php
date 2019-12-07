@@ -3,9 +3,8 @@
   <title> Prueba de PHP HEROKU </title>
  </head>
  <body>
- <?php
-echo "<td><a href='index.php?saludo=".$saludo["saludo"]."'>detalles</a></td>";
-echo "Variable $saludo: $saludo <br>n";
-echo '<p> Hola Lina, $saludo </p>'; ?>
+Hola <?php isset($_GET["nombre"]) ? print $_GET["nombre"] : "";<br>
+echo "Variable $nombre: $nombre <br>n";
+echo '<p> Hola Lina, $nombre </p>'; ?>
  </body>
 </html>
